@@ -103,7 +103,7 @@ def page3():
                                                "X","X","X","X","X",
                                                "X","X","X","X","X",
                                                "X","X","X","F"]
-                        }))
+                        })
   
   st.write(lista)
 
