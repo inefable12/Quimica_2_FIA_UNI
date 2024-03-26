@@ -96,8 +96,7 @@ def page3():
                                                "X","X","X","X","X",
                                                "X","X","X","X","X",
                                                "X","X","X","X","X",
-                                               "X","X","X","X","X",
-                                               ]}))
+                                               "X","X","X","X","X"]}))
 ##
 page_names_to_funcs = {
   "Contenido del Curso": Home,
