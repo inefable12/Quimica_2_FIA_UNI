@@ -107,7 +107,7 @@ def page3():
   
   st.write(lista)
 
-st.write('''Est''')
+  st.write('''Est''')
 
 
 ##
