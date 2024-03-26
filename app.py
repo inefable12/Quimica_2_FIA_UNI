@@ -107,7 +107,7 @@ def page3():
   
   st.write(lista)
 
-  st.write('''Est''')
+  st.write('''Bar chart''')
   st.bar_chart(
    lista, x="Nombre", y=["18/03/2024", "25/03/2024"], color=["#FF0000", "#0000FF"])
 
