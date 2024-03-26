@@ -10,7 +10,7 @@ st.sidebar.image("fondo_quimica2.png",
 
 ##############Pagina 1##############
 def Home():
-    st.markdown("# ")
+    st.markdown("# Temario")
     st.sidebar.markdown("# Química II")
 
     total1, total2 = st.columns(2, gap='large')
