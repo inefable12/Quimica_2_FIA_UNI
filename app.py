@@ -11,7 +11,7 @@ st.sidebar.image("fondo_quimica2.png",
 ##############Pagina 1##############
 def Home():
     st.markdown("# ")
-    st.sidebar.markdown("# Química I")
+    st.sidebar.markdown("# Química II")
 
     total1, total2 = st.columns(2, gap='large')
     with total1:
@@ -62,25 +62,11 @@ def page2():
     st.write('''Fecha de entrega: No aplica''')
     st.write ('''Repasar material introductorio sobre python en Google Colab''')
     st.write('Sugerencia: https://github.com/inefable12/CQCPE_2023_jesus/blob/main/1_ABC_Python_github.ipynb')
-  
-    st.info('Grupal')
-    st.write('''Tiempo estimado: 1 hora''')
-    st.write('''Por grupo resolver los ejercicios asignados (capítulo 3 de Brown) empleando python desde Google Colab.''')
-    st.write('''Presentación: Enviar al delegado(a) el enlace al archivo: "nombre_grupo.ipynb"''')  
-    st.write('''Fecha máxima de entrega: Domingo 31/03/2024 a las 23:59''')
-    
 
 ##
 def page3():
   st.header('Más información', divider='rainbow')
-   
-  st.link_button("Github", "https://github.com/inefable12/Quimica_1_FIA_UNI/")
-  
-  #st.write('''S.''')
-
-  #st.write('''texto1''')
-  #st.markdown("<h1 style='text-align: center; color: purple;'>Texto 2</h1>", unsafe_allow_html=True)
-
+  st.link_button("Github", "https://github.com/inefable12/Quimica_2_FIA_UNI/")
 ##
 page_names_to_funcs = {
   "Contenido del Curso": Home,
