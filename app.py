@@ -24,7 +24,7 @@ def Home():
     with total2:
         st.info('Unidad 2: ANÁLISIS QUÍMICO DETERMINACIÓN DE FORMULAS')
         st.write ('''Análisis químico / Estructura molecular de compuestos orgánicos, formula empírica y formula
-molecular, problemas / Métodos para determinar pesos moleculares.'''))
+molecular, problemas / Métodos para determinar pesos moleculares.''')
     
     total3, total4 = st.columns(2, gap='large')
     with total3:
