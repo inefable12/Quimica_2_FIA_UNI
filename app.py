@@ -67,6 +67,38 @@ def page2():
 def page3():
   st.header('Más información', divider='rainbow')
   st.link_button("Github", "https://github.com/inefable12/Quimica_2_FIA_UNI/")
+  st.write('''Asistencia''')
+  st.write(pd.DataFrame({'Nombre': ['Letona Vargas Kylie Jacqueline, 
+                                    Espinoza Peralta Mayra Andrea, 
+                                    Garcia Ignacio Lizet Alfonsina,
+                                    Villanueva Valencia Carlos Wilder,
+                                    Gonzales Carrera Keipry Niasay,
+                                    Gastello Seclen Fernanda Isabel,
+                                    Lara Giraldo Aldair Alessandro,
+                                    Lara Giraldo Italo Sebastián,
+                                    Ayala Grados Angel Sebastián,
+                                    Toribio Mamani Angel Brandon,
+                                    Maguiña Ticona Adriana Isabel,
+                                    Cuzcano Pintado Angelly del Pilar,
+                                    Torre Zarzo Ana Barbara,
+                                    Utrilla Flores María del Carmen,
+                                    Sanchez Estrada Diego André,
+                                    Ruiz Alfaro Jhohan David,
+                                    Castañeda León Nelson Mijhael,
+                                    Santiago Asencios Alondra, 
+                                    Guerrero Obregon Jose Carlos,
+                                    Medina Ramirez Carlos Sebastian,
+                                    Quispe Baltazar Marco,
+                                    Quispe Icarayme Matias Alfredo,
+                                    Miranda Tipte Brigit Magdiel,
+                                    Coronel Jaimes Gonzalo
+                                    '], 
+                                '25/03/2024': ["X","X","X","X","X",
+                                               "X","X","X","X","X",
+                                               "X","X","X","X","X",
+                                               "X","X","X","X","X",
+                                               "X","X","X","X","X",
+                                               ]}))
 ##
 page_names_to_funcs = {
   "Contenido del Curso": Home,
