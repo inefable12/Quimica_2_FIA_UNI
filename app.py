@@ -107,6 +107,9 @@ def page3():
   
   st.write(lista)
 
+st.write('''Est''')
+
+
 ##
 page_names_to_funcs = {
   "Contenido del Curso": Home,
