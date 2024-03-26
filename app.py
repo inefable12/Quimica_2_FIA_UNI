@@ -38,16 +38,11 @@ molecular, problemas / Métodos para determinar pesos moleculares.''')
         st.info('Unidad 4: COMPUESTOS ORGÁNICOS Y GRUPOS FUNCIONALES CARACTERISTICOS')
         st.write ('''Definición y prioridad de los grupos funcionales / 
         Nomenclatura de los compuestos poli funcionales /
-        Alcoholes y fenoles, propiedades, reactividad química, métodos de preparación / 
-        Éteres, estructura y propiedades, reactividad química, métodos de preparación / 
-        Aldehído y cetona, estructura y propiedades, reactividad química, 
-        métodos de preparación, aplicaciones industriales / 
-        Ácidos carboxílicos y derivados, estructura y propiedades, 
-        reactividad química, métodos de preparación, aplicaciones
-        industriales / Jabones y detergentes, aceites vegetales y grasas, estructuras / 
-        Aminas, Amidas y nitrilos, estructura y propiedades, reactividad química, 
-        métodos de preparación, aplicaciones industriales /
-        Polímeros, meros, métodos de polimerización, proteínas, 
+        Alcoholes y fenoles, éteres, estructura y propiedades / 
+        Aldehído y cetona / Ácidos carboxílicos y derivados / 
+        Jabones y detergentes, aceites vegetales y grasas / 
+        Aminas, Amidas y nitrilos /
+        Polímeros, métodos de polimerización, proteínas, 
         Monosacáridos, Disacáridos, Polisacáridos.''')
 
     
