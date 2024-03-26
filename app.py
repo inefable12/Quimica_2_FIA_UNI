@@ -93,22 +93,24 @@ def page3():
                                     'Quispe Icarayme Matias Alfredo',
                                     'Miranda Tipte Brigit Magdiel',
                                     'Coronel Jaimes Gonzalo'], 
-                                '18/03/2024': ["X","X","X","X","X",
-                                               "X","X","X","X","X",
-                                               "X","X","X","X","X",
-                                               "X","X","X","X","X",
-                                               "X","X","X","X"],
-                                 '25/03/2024': ["X","X","X","X","X",
-                                               "X","X","X","X","X",
-                                               "X","X","X","X","X",
-                                               "X","X","X","X","X",
-                                               "X","X","X","F"]
+                        '18/03/2024': ["X","X","X","X","X",
+                                       "X","X","X","X","X",
+                                       "X","X","X","X","X",
+                                       "X","X","X","X","X",
+                                       "X","X","X","X"],
+                        '25/03/2024': ["X","X","X","X","X",
+                                       "X","X","X","X","X",
+                                       "X","X","X","X","X",
+                                       "X","X","X","X","X",
+                                       "X","X","X","F"]
                         })
   
   st.write(lista)
 
-
-st.bar_chart(lista)
+st.write('''Est''')
+st.bar_chart(
+   lista, x="Nombre", y=["18/03/2024", "25/03/2024"], color=["#FF0000", "#0000FF"]  # Optional
+)
 
 ##
 page_names_to_funcs = {
