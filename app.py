@@ -92,11 +92,17 @@ def page3():
                                     'Quispe Icarayme Matias Alfredo',
                                     'Miranda Tipte Brigit Magdiel',
                                     'Coronel Jaimes Gonzalo'], 
-                                '25/03/2024': ["X","X","X","X","X",
+                                '18/03/2024': ["X","X","X","X","X",
                                                "X","X","X","X","X",
                                                "X","X","X","X","X",
                                                "X","X","X","X","X",
-                                               "X","X","X","X"]}))
+                                               "X","X","X","X"],
+                                 '25/03/2024': ["X","X","X","X","X",
+                                               "X","X","X","X","X",
+                                               "X","X","X","X","X",
+                                               "X","X","X","X","X",
+                                               "X","X","X","F"]
+                        }))
 ##
 page_names_to_funcs = {
   "Contenido del Curso": Home,
