@@ -68,7 +68,8 @@ def page3():
   st.header('Más información', divider='rainbow')
   st.link_button("Github", "https://github.com/inefable12/Quimica_2_FIA_UNI/")
   st.write('''Asistencia''')
-  st.write(pd.DataFrame({'Nombre': ['Letona Vargas Kylie Jacqueline', 
+
+  lista = pd.DataFrame({'Nombre': ['Letona Vargas Kylie Jacqueline', 
                                     'Espinoza Peralta Mayra Andrea', 
                                     'Garcia Ignacio Lizet Alfonsina',
                                     'Villanueva Valencia Carlos Wilder',
@@ -103,6 +104,10 @@ def page3():
                                                "X","X","X","X","X",
                                                "X","X","X","F"]
                         }))
+  
+  st.write(lista)
+
+
 ##
 page_names_to_funcs = {
   "Contenido del Curso": Home,
