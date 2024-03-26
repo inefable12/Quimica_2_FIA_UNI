@@ -67,7 +67,10 @@ def page2():
 def page3():
   st.header('Más información', divider='rainbow')
   st.link_button("Github", "https://github.com/inefable12/Quimica_2_FIA_UNI/")
-  st.write('''Asistencia''')
+
+##
+def page4():
+  st.header('''Asistencia''')
 
   lista = pd.DataFrame({'Nombre': ['Letona Vargas Kylie Jacqueline', 
                                     'Espinoza Peralta Mayra Andrea', 
@@ -116,6 +119,7 @@ page_names_to_funcs = {
   "Contenido del Curso": Home,
   "Actividad": page2,
   "Consultas": page3,
+  "Asistencia": page4
 }
 
 selected_page = st.sidebar.selectbox("Selecciona una página", page_names_to_funcs.keys())
