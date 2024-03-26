@@ -108,6 +108,8 @@ def page3():
   st.write(lista)
 
 
+st.bar_chart(lista)
+
 ##
 page_names_to_funcs = {
   "Contenido del Curso": Home,
